@@ -1,5 +1,6 @@
 import { Component } from 'react';
 
+import Navbar from './components/posts/navbar/navbar.component';
 import Posts from './components/posts/posts.component';
 import './App.css';
 
@@ -30,7 +31,8 @@ class App extends Component {
     console.log(userposts);
     return (
       <div className="App">
-        <h1>Welcome to Our Corner Of the Web</h1>
+        <h1>Welcome to Our Corner Of the Web</h1>n
+        <Navbar />
         <Posts posts={userposts}/>
       </div>
     );
