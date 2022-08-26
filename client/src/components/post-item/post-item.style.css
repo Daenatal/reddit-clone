@@ -1,0 +1,28 @@
+.post-container {
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: #919a9a;
+    border: 1px solid rgb(18, 16, 16);
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .post-container:hover {
+    transform: scale(1.05);
+  }
+
+  .post-container > p:first-of-type{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: right;
+    color: rgb(86, 84, 175)
+  }
