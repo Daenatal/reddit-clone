@@ -2,6 +2,7 @@ import { Component } from 'react';
 
 import Posts from './components/posts/posts.component';
 import './App.css';
+import Navbar from './components/posts/navbar/navbar.component';
 
 class App extends Component {
   constructor() {
@@ -59,6 +60,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Welcome to Our Corner Of the Web</h1>
+        <Navbar />
         <Posts posts={filteredPosts} clickHandler={onPostClick} />
       </div>
     );
