@@ -1,18 +1,18 @@
 import { Component } from 'react'
 
+import PostItem from '../post-item/post-item.component';
 import './posts.styles.css';
 
 class Posts extends Component {
 
     render() {
+        const { clickHandler} = this.props;
         return (
+            
             <div className='post-list'>
                 {this.props.posts.map((post) => {
                     return (
-                        <div className='post-container'>
-                            <h2>{post.title}</h2>
-                            <p>{post.body}</p>
-                        </div>
+                        <PostItem key={post.id} body={post} clickHandlerTwo={clickHandler}/>
                     )
                 })}
             </div>

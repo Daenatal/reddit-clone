@@ -1,0 +1,19 @@
+.NavbarItems {
+    width: 100vw;
+    background-color: rgb(135, 135, 170);
+}
+
+.Navbar-items {
+    display: inline-block;
+}
+
+.Navbar-links {
+    display: inline-block;
+}
+
+
+
+.NavbarItems > h1{
+    display: inline-block;
+    color: #fff;
+}
