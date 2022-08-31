@@ -6,3 +6,36 @@
     align-items: center;
     font-size: 1.2rem;
 }
+=======
+.Navbar {
+    width: 100vw;
+    background-color: rgb(135, 135, 170);
+}
+
+.rightSide {
+    flex: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 25px;
+}
+
+.rightSide button {
+    border: blue;
+    align-items: center;
+    color: black;
+    background-color: blue;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.middle {
+    align-items: center;
+    height: 24px;
+}
+
+.middle input {
+    height: 30px;
+    width: 500px;
+
+}
